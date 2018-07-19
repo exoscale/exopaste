@@ -32,7 +32,6 @@
 
 (defn paste-handler
   [store request]
-  (res/response (str "Your are looking at paste '" (:uuid (:route-params request)) "'"))
   (let [paste (store/get-paste-by-uuid store (:uuid (:route-params request)))]
     (res/response (view/render-paste paste))))
 

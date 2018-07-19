@@ -1,0 +1,6 @@
+- Add a real database back-end to have persistent data.
+- Make our templates more beautiful.
+- Add some metadata to our pastes, such as an author free-form field, and the time it was pasted.
+- Explore how we can make our application more robust with unit tests.
+- Hook-in our [Yummy](https://github.com/exoscale/yummy) configuration library to let us fine tune our application.
+- Deploy our pastebin service on Kubernetes
