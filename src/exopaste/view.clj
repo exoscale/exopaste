@@ -3,7 +3,7 @@
             [hiccup.form :refer [form-to text-area submit-button]]))
 
 (defn render-paste
-  "given a map representing a paste, return an HTML string for the display of a paste."
+  "Given a map representing a paste, return an HTML string for the display of a paste."
   [paste]
   (html5 [:head
           (include-js "https://sos-de-fra-1.exo.io/highlight.js/9.12.0/highlight.min.js")
@@ -17,6 +17,7 @@
           [:pre [:code (:content paste)]]]))
 
 (defn render-form
+  "Render a simple HTML form page."
   []
   (html5 [:head
           [:meta {:charset "UTF-8"}]]
