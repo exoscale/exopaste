@@ -18,4 +18,4 @@ lein run
 
 ## Articles and their corresponding tags
 
-(We haven't released any articles yet! Stay tuned!)
+- `2018-07-20`: https://www.exoscale.com/syslog/clojure-application-tutorial/ (tag: 0.1.0)
